@@ -36,3 +36,5 @@ ng build --prod --base-href /myUrl/"
 
 add this line in angular.json file for global base url
 "baseHref":"/web/",
+
+ng deploy --base-href=https://sohelkhan00000.github.io/bill

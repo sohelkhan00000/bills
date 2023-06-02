@@ -4,11 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "build" :  "ng build --prod --base-href /bills/ ",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev": "ng build --base-href /myUrl/",
-    "prod": "ng build --prod "
+    "dev": "ng build --base-href /bills/",
+    "prod": "ng build --prod --base-href /bills/ "
   },
   "private": true,
   "dependencies": {
