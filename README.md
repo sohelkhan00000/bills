@@ -32,7 +32,7 @@ npm run pro
 
 "build": "ng build --prod --output-hashing=none && node concat-build.js",
 
-ng build --prod --base-href /myUrl/"
+ng build --prod --base-href /bill/"
 
 add this line in angular.json file for global base url
 "baseHref":"/web/",
