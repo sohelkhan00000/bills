@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-           //  "baseHref":"/bills/",
+            //  "baseHref":"/bills/",
             "outputPath": "dist/bills-web",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -25,7 +25,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              // "src/styles.css"
             ],
             "scripts": []
           },
@@ -89,7 +89,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              // "src/styles.css"
             ],
             "scripts": []
           }

@@ -34,7 +34,18 @@ npm run pro
 
 ng build --prod --base-href /bill/"
 
+
 add this line in angular.json file for global base url
 "baseHref":"/web/",
 
 ng deploy --base-href=https://sohelkhan00000.github.io/bill
+
+
+..................deploy.....................
+UAT
+    first delete all files in dist
+    npm run dev
+
+PROD
+    first delete all files in dist
+    ng deploy --base-href /bills/
