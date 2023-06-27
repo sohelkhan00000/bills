@@ -17,12 +17,12 @@ const routes: Routes = [
     , loadChildren: () => import('./rent-receipt/rent-receipt.module').then(m => m.RentReceiptModule)
     //,component: MainPageComponent
   }
-  // ,{
-  //   path: '',
-  //   redirectTo: 'rent-receipt', pathMatch: 'full'
-  //  // , loadChildren: () => import('./rent-receipt/rent-receipt.module').then(m => m.RentReceiptModule)
-  //   //,component: MainPageComponent
-  // },
+  ,{
+    path: '',
+    redirectTo: 'rent-receipt', pathMatch: 'full'
+   // , loadChildren: () => import('./rent-receipt/rent-receipt.module').then(m => m.RentReceiptModule)
+    //,component: MainPageComponent
+  },
 //   { path: 'rent-receipt', component: MainPageComponent },
 //  { path: '', component: MainPageComponent },
 ];
